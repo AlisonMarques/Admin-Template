@@ -1,12 +1,14 @@
+import React from 'react';
+
+import Layout from '../components/template/Layout';
+
 export default function Home() {
   return (
-    <div
-      className={`
-      flex justify-center items-center h-screen
-      bg-gradient-to-r from-green-500 to-blue-500
-    `}
+    <Layout
+      titulo="Página Inicial"
+      subtitulo="Estamos construindo um template admin"
     >
-      <h1>Admin</h1>
-    </div>
+      <h3>Conteúdo</h3>
+    </Layout>
   );
 }
